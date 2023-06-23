@@ -1,5 +1,5 @@
 var valorInScreen = document.querySelector(".content-screen");
-
+    
 class Inputs {
     input1: number = 0;
     input2: number = 0;
@@ -24,10 +24,12 @@ function numberSelected(numberSelected: string) {
 let sinal: string = '';
 
 function operations(sinalSelected: string) {
+    valors.input2 = 0;
+
     if (valors.input1 == 0) {
         valors.input1 = Number(this.valorRemovedFromArray);
     }
-    
+
     this.sinal = sinalSelected;
     this.valorInScreen.innerHTML = valors.input1 + '  ' + this.sinal;
     this.valuesReset();
@@ -86,11 +88,8 @@ function result() {
     this.valuesReset();
 }
 
-function valuesReset(): string {
-    const messageReset = "values reset";
+function valuesReset() {
     this.arrayValors = [];
-    
-    return messageReset;
 }
 
 function resetInputsAndSinal(): Inputs {
@@ -101,14 +100,11 @@ function resetInputsAndSinal(): Inputs {
     return valors;
 }
 
-function toCleanScreenContent(): string {
-    const messageClear = "Você limpou o visor";
+function toCleanScreenContent() {
+    valors.input1 = 0;
 
     this.resetInputsAndSinal();
     this.valuesReset();
     this.valorInScreen.innerHTML = '';
-
-    valors.input1 = 0;
-    
-    return messageClear;
+    this.valorRemovedFromArray = '';    
 }

@@ -21,6 +21,7 @@ function numberSelected(numberSelected) {
 }
 var sinal = '';
 function operations(sinalSelected) {
+    valors.input2 = 0;
     if (valors.input1 == 0) {
         valors.input1 = Number(this.valorRemovedFromArray);
     }
@@ -77,9 +78,7 @@ function result() {
     this.valuesReset();
 }
 function valuesReset() {
-    var messageReset = "values reset";
     this.arrayValors = [];
-    return messageReset;
 }
 function resetInputsAndSinal() {
     valors.input2 = 0;
@@ -87,10 +86,9 @@ function resetInputsAndSinal() {
     return valors;
 }
 function toCleanScreenContent() {
-    var messageClear = "Você limpou o visor";
+    valors.input1 = 0;
     this.resetInputsAndSinal();
     this.valuesReset();
     this.valorInScreen.innerHTML = '';
-    valors.input1 = 0;
-    return messageClear;
+    this.valorRemovedFromArray = '';
 }

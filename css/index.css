@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap");
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body #title {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 28px;
+  margin-top: 7vh;
+}
+body #body {
+  display: flex;
+  justify-content: center;
+}
+body .base .contents {
+  background-color: #d1bfa3;
+  width: 30vw;
+  min-width: 400px;
+  heigth: 40vh;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-top: 1.5vh;
+}
+body .base .contents .content-screen {
+  background-color: #ffffff;
+  width: 90%;
+  height: 10vh;
+  margin: 0px 0px 3vh 5%;
+  border-radius: 4px;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 40px;
+}
+body .base .contents .base-calculator {
+  display: flex;
+  background-color: #fefefe;
+}
+body .base .contents .base-calculator .content-numbers {
+  background-color: #e4d5c0;
+  width: 24vw;
+  min-width: 320px;
+  padding: 1vh 0px;
+}
+body .base .contents .base-calculator .content-numbers .numbers {
+  display: flex;
+  justify-content: center;
+}
+body .base .contents .base-calculator .content-numbers .numbers a {
+  text-decoration: none;
+  color: #7c3b06;
+}
+body .base .contents .base-calculator .content-numbers .numbers div {
+  background-color: #cfcbcb;
+  width: 6vw;
+  min-width: 70px;
+  margin: 1vh 1vw;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+body .base .contents .base-calculator .content-numbers .numbers div:hover {
+  background-color: #f0eade;
+}
+body .base .contents .base-calculator .content-numbers .numbers .zero {
+  width: 14vw;
+  min-width: 150px;
+}
+body .base .contents .base-calculator .content-buttons {
+  background-color: #d1bfa3;
+  width: 6vw;
+  min-width: 80px;
+  padding-top: 21.5vh;
+}
+body .base .contents .base-calculator .content-buttons a {
+  text-decoration: none;
+}
+body .base .contents .base-calculator .content-buttons a div {
+  width: 4.8vw;
+  min-width: 65px;
+  height: 5vh;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 20%;
+  font-size: 18px;
+  margin-left: 0.5vw;
+}
+body .base .contents .base-calculator .content-buttons .clear {
+  border: 2px solid #000000;
+  background-color: #000000;
+  margin-bottom: 20px;
+}
+body .base .contents .base-calculator .content-buttons .clear:hover {
+  background-color: #5e5e5e;
+  color: #f80b0b;
+  font-size: 22px;
+}
+body .base .contents .base-calculator .content-buttons .enter {
+  border: 2px solid #7c3b06;
+  color: #7c3b06;
+}
+body .base .contents .base-calculator .content-buttons .enter:hover {
+  color: #7c3b06;
+  font-size: 22px;
+}
+body .operations {
+  width: 30vw;
+  min-width: 400px;
+  heigth: 40vh;
+  background-color: #7c3b06;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+body .operations a {
+  text-decoration: none;
+}
+body .operations div {
+  background-color: #a58163;
+  width: 5vw;
+  min-width: 70px;
+  height: 4vh;
+  margin: 1vh 1vw;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+}
+body .operations div:hover {
+  font-size: 28px;
+  color: #097a22;
+}
+body .operations .sum {
+  padding-top: 10px;
+  font-size: 25px;
+}
+body .operations .subtraction {
+  padding: 5px 0px 5px 0px;
+  font-size: 28px;
+}
+body .operations .multiplication {
+  padding-top: 10px;
+  font-size: 20px;
+}
+body .operations .division {
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=index.css.map */
