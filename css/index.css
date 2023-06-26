@@ -80,28 +80,27 @@ body .base .contents .base-calculator .content-buttons a div {
   width: 4.8vw;
   min-width: 65px;
   height: 5vh;
-  border-radius: 5px;
   text-align: center;
-  color: #ffffff;
   padding-top: 20%;
-  font-size: 18px;
+  font-size: 20px;
   margin-left: 0.5vw;
 }
 body .base .contents .base-calculator .content-buttons .clear {
-  border: 2px solid #000000;
-  background-color: #000000;
+  border: none;
+  background-color: #d1bfa3;
   margin-bottom: 20px;
+  color: #d10d0d;
 }
 body .base .contents .base-calculator .content-buttons .clear:hover {
-  background-color: #5e5e5e;
-  color: #f80b0b;
+  border-bottom: 2px solid #d10d0d;
   font-size: 22px;
 }
 body .base .contents .base-calculator .content-buttons .enter {
-  border: 2px solid #7c3b06;
+  border: none;
   color: #7c3b06;
 }
 body .base .contents .base-calculator .content-buttons .enter:hover {
+  border-bottom: 2px solid #7c3b06;
   color: #7c3b06;
   font-size: 22px;
 }
@@ -129,24 +128,36 @@ body .operations div {
   color: #ffffff;
 }
 body .operations div:hover {
-  font-size: 28px;
+  background-color: #b99e88;
   color: #097a22;
 }
 body .operations .sum {
   padding-top: 10px;
   font-size: 25px;
 }
+body .operations .sum:hover {
+  font-size: 28px;
+}
 body .operations .subtraction {
   padding: 5px 0px 5px 0px;
-  font-size: 28px;
+  font-size: 30px;
+}
+body .operations .subtraction:hover {
+  font-size: 32px;
 }
 body .operations .multiplication {
   padding-top: 10px;
   font-size: 20px;
 }
+body .operations .multiplication:hover {
+  font-size: 24px;
+}
 body .operations .division {
   padding-top: 10px;
-  font-size: 25px;
+  font-size: 28px;
+}
+body .operations .division:hover {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=index.css.map */
